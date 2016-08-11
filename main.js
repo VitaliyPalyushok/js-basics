@@ -1,13 +1,14 @@
 
-/*
-var x1= 0; 
-var y1= 0;
-var startCoords= alert("Start coordinates are:A("+x1+","+y1+")");
-var x2=prompt("Write the 'x' coordinate");
-var y2=prompt("Write the 'y' coordinate");
+var x1 = 0; 
+var y1 = 0;
+var startCoords = alert ( "Start coordinates are:A("+x1+","+y1+")" );
+var x2 = prompt ( "Write the 'x' coordinate" );
+var y2 = prompt ( "Write the 'y' coordinate" );
 
-var result=alert("Your coordinates are :B("+x2+","+y2+").\nThe distance between points A("+x1+","+y1+")and B("+x2+","+y2+") is :\n"+(x2-x1)+" -by 'X'\n"+(y2-y1)+" -by 'Y'");
-*/
+var result=alert ( "Your coordinates are :B(" + x2 + "," + y2 + ").\n" +
+  "The distance between points A("+x1+","+y1+")and B("+x2+","+y2+")"+
+  " is :\n"+(x2-x1)+" -by 'X'\n"+(y2-y1)+" -by 'Y'");
+
 
 //---------------------------------------------------------------------------
 
@@ -43,7 +44,7 @@ i++;
 }
 */
 //---------------------------------------------------------------------------
-
+/*
 var rand =Math.round(Math.random()*100);
 alert(rand);
 
@@ -64,7 +65,4 @@ else {
   alert("You win");
 }
 }
-
-
-
-
+*/
