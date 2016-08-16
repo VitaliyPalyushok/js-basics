@@ -35,9 +35,8 @@ for (var i = 1 ; i <= 10 ; ++i){
 var hash ="# # # # #"
 var i=1;
 
-while (i < 8){
-
-  if ( !( i % 2 ) ){
+while (i < 8) {
+  if ( !( i % 2 ) ) {
     console.log (' ' + hash);
   } 
   else {
@@ -50,11 +49,9 @@ while (i < 8){
 //---------------------------------------------------------------------------
 /*
 var rand = Math.round (Math.random () * 100);
-
 alert (rand);
 
 while (ask != rand) {
-
     var ask = prompt ("Please guess the number from 1 to 100"); 
 
     if (rand > ask) {
