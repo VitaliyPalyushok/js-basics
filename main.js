@@ -23,7 +23,6 @@ alert (name + " has a " + event + " today at " + time + " somewhere in " + place
 //----------------------------------------------------------------------------
 /*
 for (var i = 1 ; i <= 10 ; ++i){
-
     for (var j = 1; j <= i; ++j){
 
         document.write (' ' + "#" + ' ' ); 
@@ -61,11 +60,9 @@ while (ask != rand) {
     if (rand > ask) {
       alert ("Our number is higher, try again");
       }
-
     else if (rand<ask) {
       alert ("Our number is lower, try again");
     }
-
     else {
       alert("You win");
     }
